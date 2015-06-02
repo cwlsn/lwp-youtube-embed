@@ -23,9 +23,9 @@ There are a ton of things you can play with while embeding YouTube videos. I've 
 | Parameter | Values |
 ------------|---------
 autohide    | This parameter indicates whether the video controls will      automatically hide after a video begins playing. Supported values are:
-             * 2 (default) – If the player has a 16:9 or 4:3 aspect ratio, the video progress bar and player controls display or hide automatically. Otherwise, those controls are visible throughout the video.
-             * 1 – Regardless of the player's dimensions, the video progress bar and player controls display or hide automatically.
-             * 0 – Regardless of the player's dimensions, the video progress bar and player controls are visible throughout the video. |
+* 2 (default) – If the player has a 16:9 or 4:3 aspect ratio, the video progress bar and player controls display or hide automatically. Otherwise, those controls are visible throughout the video.
+* 1 – Regardless of the player's dimensions, the video progress bar and player controls display or hide automatically.
+* 0 – Regardless of the player's dimensions, the video progress bar and player controls are visible throughout the video. |
 autoplay    | woop
 
 
