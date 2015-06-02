@@ -26,22 +26,52 @@ There are a ton of things you can play with while embeding YouTube videos. I've 
 
 This parameter indicates whether the video controls will automatically hide after a video begins playing. Supported values are:
 
-* *2 (default)* – If the player has a 16:9 or 4:3 aspect ratio, the video progress bar and player controls display or hide automatically. Otherwise, those controls are visible throughout the video.
+* **2 (default)** – If the player has a 16:9 or 4:3 aspect ratio, the video progress bar and player controls display or hide automatically. Otherwise, those controls are visible throughout the video.
 * 1 – Regardless of the player's dimensions, the video progress bar and player controls display or hide automatically.
 * 0 – Regardless of the player's dimensions, the video progress bar and player controls are visible throughout the video.
 
+#### Example
+
+```
+[youtube v="Fo4746XZgw8" autohide="0"]
+```
+
 ### autoplay
 
-Default is *0* or `*false*`. Set to *1* or `*true*` to play the video automatically and make everyone hate you.
+Default is **0** or `false`. Set to **1** or `true` to play the video automatically and make everyone hate you.
+
+#### Example
+
+```
+[youtube v="Fo4746XZgw8" autoplay="true"]
+```
 
 ### loop
 
-Default is *0* or `*false*`. Set to *1* or `*true*` to loop playback.
+Default is **0** or `false`. Set to **1** or `true` to loop playback.
+
+#### Example
+
+```
+[youtube v="Fo4746XZgw8" loop="1"]
+```
 
 ### modestbranding
 
-Default is *0* or `*false*`. Set to *1* or `*true*` to hide the YouTube logo on the player.
+Default is **0** or `false`. Set to **1** or `true` to hide the YouTube logo on the player.
+
+#### Example
+
+```
+[youtube v="Fo4746XZgw8" modestbranding="true"]
+```
 
 ### rel
 
-Default is *1* or `*true*`. Set to *0* or `*false*` to hide the YouTube related videos after the video is done.
+Default is **1** or `true`. Set to **0** or `false` to hide the YouTube related videos after the video is done.
+
+#### Example
+
+```
+[youtube v="Fo4746XZgw8" rel="0"]
+```
