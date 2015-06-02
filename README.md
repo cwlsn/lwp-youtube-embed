@@ -1,4 +1,6 @@
-# lwp-youtube-embed
+# Responsive, Lightweight YouTube Embed Plugin for WordPress
+
+## Brought to you by [Lightweight Plugins](http://www.lightweightplugins.co)
 
 Plugin home page: [Responsive YouTube Embed Plugin for WordPress](http://www.lightweightplugins.co/plugins/responsive-youtube-embeds/)
 
@@ -24,10 +26,22 @@ There are a ton of things you can play with while embeding YouTube videos. I've 
 
 This parameter indicates whether the video controls will automatically hide after a video begins playing. Supported values are:
 
-* 2 (default) – If the player has a 16:9 or 4:3 aspect ratio, the video progress bar and player controls display or hide automatically. Otherwise, those controls are visible throughout the video.
+* *2 (default)* – If the player has a 16:9 or 4:3 aspect ratio, the video progress bar and player controls display or hide automatically. Otherwise, those controls are visible throughout the video.
 * 1 – Regardless of the player's dimensions, the video progress bar and player controls display or hide automatically.
 * 0 – Regardless of the player's dimensions, the video progress bar and player controls are visible throughout the video.
 
 ### autoplay
 
-This parameter specifies whether the initial video will automatically start to play when the player loads. Supported values are 0 or 1. The default value is 0.
+Default is *0* or `*false*`. Set to *1* or `*true*` to play the video automatically and make everyone hate you.
+
+### loop
+
+Default is *0* or `*false*`. Set to *1* or `*true*` to loop playback.
+
+### modestbranding
+
+Default is *0* or `*false*`. Set to *1* or `*true*` to hide the YouTube logo on the player.
+
+### rel
+
+Default is *1* or `*true*`. Set to *0* or `*false*` to hide the YouTube related videos after the video is done.
