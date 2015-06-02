@@ -20,13 +20,14 @@ This plugin provides a shortcode "youtube" to embed responsive Youtube videos on
 
 There are a ton of things you can play with while embeding YouTube videos. I've selected a few that you can modify through additional parameters in the shortcode.
 
-| Parameter | Values |
-------------|---------
-autohide    | This parameter indicates whether the video controls will      automatically hide after a video begins playing. Supported values are:
+### autohide
+
+This parameter indicates whether the video controls will automatically hide after a video begins playing. Supported values are:
+
 * 2 (default) – If the player has a 16:9 or 4:3 aspect ratio, the video progress bar and player controls display or hide automatically. Otherwise, those controls are visible throughout the video.
 * 1 – Regardless of the player's dimensions, the video progress bar and player controls display or hide automatically.
-* 0 – Regardless of the player's dimensions, the video progress bar and player controls are visible throughout the video. |
-autoplay    | woop
+* 0 – Regardless of the player's dimensions, the video progress bar and player controls are visible throughout the video.
 
+### autoplay
 
-
+This parameter specifies whether the initial video will automatically start to play when the player loads. Supported values are 0 or 1. The default value is 0.
