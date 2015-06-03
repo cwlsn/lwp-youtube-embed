@@ -1,6 +1,6 @@
 # Responsive, Lightweight YouTube Embed Plugin for WordPress
 
-## Brought to you by [Lightweight Plugins](http://www.lightweightplugins.co)
+#### Brought to you by [Lightweight Plugins](http://www.lightweightplugins.co)
 
 Plugin home page: [Responsive YouTube Embed Plugin for WordPress](http://www.lightweightplugins.co/plugins/responsive-youtube-embeds/)
 
